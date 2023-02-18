@@ -1,0 +1,25 @@
+.ShowInfoPanel-div {
+    .ShowInfoPanel-col {
+        padding-top: 40px;
+        margin-top: 40px;
+        border-top: 1px solid #0000001a;
+        .setting-title-div {
+            font-size: 34px;
+            color: #000;
+            font-weight: 500;
+        }
+        .green-unfill-btn {
+            color: #2cb46c;
+            background-color: #fff;
+            font-size: 30px;
+            width: 90px;
+            border-radius: 5px;
+            font-weight: 600;
+            border: none;
+        }
+    }
+    .name-div {
+        font-size: 29px;
+        margin: 20px 0px;
+    }
+}

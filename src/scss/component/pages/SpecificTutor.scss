@@ -1,0 +1,384 @@
+.specific-tutor-div {
+    margin-top: 100px;
+    position: relative;
+    .border-style {
+        border-bottom: 1px solid #d4d4d4;
+        width: 100%;
+        position: absolute;
+        top: 206px;
+    }
+    .row {
+        margin: 0;
+        padding: 0% 3%;
+    }
+    .profile-card-col {
+        .profile-card {
+            width: 80%;
+            border: 1px solid #d4d4d4;
+            padding: 0px 15px;
+            padding-top: 30px;
+            border-radius: 5px;
+            z-index: 2;
+            background: white;
+            .image-div {
+                border-bottom: 1px solid #ececec;
+                img {
+                    width: 180px;
+                    height: 180px;
+                    box-shadow: 0px 16px 30px #e5e5e5;
+                    margin-bottom: 30px;
+                    min-width: 100px;
+                }
+            }
+            .tutor-info-style-div {
+                margin-top: 30px;
+                border-bottom: 1px solid #ececec;
+                .tutor-hour {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    .pound-img {
+                        height: 25px;
+                        width: 27px;
+                    }
+                    h2 {
+                        margin: 0;
+                        color: #000;
+                        font-size: 34px;
+                        font-weight: 500;
+                    }
+                    span {
+                        margin-left: 7px;
+                        padding-top: 9px;
+                    }
+                }
+                .tutor-review {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                    .star-span {
+                        margin-left: 5px;
+                        padding-top: 5px;
+                        color: #006b9c;
+                        font-weight: 600;
+                    }
+                    .rew-span {
+                        margin-left: 5px;
+                        padding-top: 5px;
+                    }
+                }
+            }
+            .teach-style-div {
+                border-bottom: 1px solid #ececec;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    padding: 9px 0px;
+                    img {
+                        width: 18px;
+                    }
+                }
+                span {
+                    margin-left: 15px;
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+            .btn-div {
+                margin-top: 25px;
+                .btn {
+                    width: 100%;
+                    margin: 10px 0px;
+                    height: 52px;
+                    background-color: #2cb46c;
+                    color: #fff;
+                    border: none;
+                    font-size: 23px;
+                    font-weight: 600;
+                    &:last-child {
+                        background-color: #fff;
+                        color: #2cb46c;
+                        border: 2px solid;
+                    }
+                }
+            }
+        }
+    }
+    .tutor-info-div-detail {
+        h2 {
+            color: #000;
+            font-size: 35px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        h4 {
+            color: #2b2b2b;
+            margin-bottom: 20px;
+        }
+        .btn {
+            cursor: pointer;
+            min-width: 101px;
+            margin-top: 10px;
+            font-size: 20px;
+            margin: 0px 8px;
+            margin-top: 10px;
+            background-color: #d1eadd;
+            color: #000;
+            border: none;
+            font-weight: 400;
+        }
+        .btn.active {
+            background-color: #2cb46c;
+        }
+        .first-btn {
+            margin-left: 0;
+            min-width: 110px;
+        }
+    }
+
+    .about-tutor {
+        margin-top: 100px;
+        h2 {
+            color: #000;
+            font-size: 35px;
+            margin-bottom: 35px;
+            font-weight: 600;
+        }
+
+        .quote-img {
+            width: 26px;
+            margin-bottom: 20px;
+        }
+        .para-tutor {
+            line-height: 1.7;
+            font-size: 21px;
+            margin-bottom: 60px;
+        }
+        .btn-subjects-Row {
+            padding: 0px;
+            margin-top: 50px;
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 50px;
+        }
+        .btn-subjects-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h5 {
+                font-size: 1.15rem;
+                color: #000;
+                margin-bottom: 0.9rem;
+            }
+            .btn {
+                color: #006b9c;
+                background-color: #fff;
+                border-color: #006b9c;
+                border-radius: 0px;
+                min-width: 117px;
+                min-height: 36px;
+                margin: 5px 0px;
+                font-size: 14px;
+            }
+        }
+        .tutor-review {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+            .star-span {
+                margin-left: 5px;
+                padding-top: 5px;
+                color: #006b9c;
+                font-weight: 600;
+                font-size: 23px;
+                margin-right: 10px;
+            }
+            .rew-span {
+                margin-left: 5px;
+                padding-top: 5px;
+                font-size: 23px;
+            }
+        }
+        .tutor-progress-Row {
+            padding: 0em;
+            border: 2px solid #ececec;
+            padding: 40px 20px;
+            margin-bottom: 25px;
+            .progress-col {
+                display: flex;
+                align-items: center;
+                padding: 30px 0px;
+                padding-right: 45px;
+
+                .title-span {
+                    flex: 2;
+                    font-size: 20px;
+                    color: #000;
+                }
+                .progress-div {
+                    flex: 1;
+                }
+                .rate-span {
+                    margin-left: 11px;
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 600;
+                }
+                .progress {
+                    height: 0.5rem;
+                    .progress-bar {
+                        background-color: #006b9e;
+                    }
+                }
+            }
+            .progress-col-odd {
+                display: flex;
+                align-items: center;
+                padding: 30px 0px;
+                padding-left: 45px;
+
+                .title-span {
+                    flex: 2;
+                    font-size: 20px;
+                    color: #000;
+                }
+                .progress-div {
+                    flex: 1;
+                }
+                .rate-span {
+                    margin-left: 11px;
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 600;
+                }
+                .progress {
+                    height: 0.5rem;
+                    .progress-bar {
+                        background-color: #006b9e;
+                    }
+                }
+            }
+        }
+
+        .profile-div {
+            border-bottom: 1px solid #ececec;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            .reply-div {
+                position: relative;
+            }
+            .response-tutor {
+                margin-left: 28px;
+                position: relative;
+            }
+            .userTxt {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-left: 80px;
+                .date-p{
+                    color: #838383;
+                }
+            }
+
+            .prof-img {
+                width: 60px;
+                height: 60px;
+                margin-right: 25px;
+                position: absolute;
+                top: 0;
+            }
+            h2 {
+                margin: 0;
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p {
+                margin: 0;
+                margin-top: 2px;
+            }
+            .tag-sub {
+                height: 63px;
+                display: flex;
+                align-items: flex-end;
+                margin-left: 25px;
+                span {
+                    background: #f3f3f3;
+                    height: 31px;
+                    min-width: 110px;
+                    font-size: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #000;
+                }
+            }
+            .rev-tutor {
+                line-height: 1.7;
+                font-size: 20px;
+                margin: 30px 0px;
+            }
+        }
+        .textmore-style {
+            padding-bottom: 50px;
+            color: #006b9e;
+            font-size: 20px;
+            font-weight: 400;
+            border-bottom: 1px solid #ececec;
+            cursor: pointer;
+        }
+        .h4-head-div {
+            margin-bottom: 50px;
+            .h4-head-style {
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+@media (max-width: 1255px) {
+    .specific-tutor-div {
+        .border-style {
+            top: 230px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .specific-tutor-div {
+        .profile-card-col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-tutor {
+            .btn-subjects-col {
+                align-items: center;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .specific-tutor-div {
+        .about-tutor {
+            .tutor-progress-Row {
+                .progress-col {
+                    padding-right: 0px;
+                }
+                .progress-col-odd {
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,224 @@
+.availability {
+  border: 1px solid #ced4da;
+  padding: 28px 16px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #eff7fa;
+  height: 450px;
+
+  .customTable {
+    th {
+      text-align: center;
+    }
+    td {
+      padding: 2px;
+      .btn {
+        width: 33px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        img {
+          width: 15px;
+        }
+      }
+      .available {
+        background-color: #2cb46c;
+      }
+      .unavailable {
+        background-color: #d0d6d8;
+      }
+      .booked {
+        background-color: #ff0000bd;
+      }
+      .undefind {
+        padding: 0;
+        background-color: #d0d6d8;
+      }
+    }
+    .day-section {
+      font-size: 11px;
+      text-align: center;
+      padding-right: 20px;
+    }
+  }
+  .hint {
+    padding-left: 22%;
+    .img-box-green {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #2cb46c;
+      margin-right: 10px;
+      margin-bottom: 7px;
+
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 11px;
+    }
+    .img-box-red {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #ff0000bd;
+      margin-right: 10px;
+      margin-bottom: 7px;
+
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 11px;
+    }
+
+    .img-box-grey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #d0d6d8;
+      margin-right: 10px;
+      margin-bottom: 7px;
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 11px;
+    }
+  }
+}
+
+.availability-tutor{
+  height: 450px;
+  padding: 28px 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 82px;
+  .customTable {
+    th {
+      text-align: center;
+      position: static;
+    }
+    td {
+      padding: 2px;
+      .btn {
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        img {
+          width: 15px;
+        }
+      }
+      .available {
+        background-color: #eef7f6;
+      }
+      .unavailable {
+        background-color: #ebebeb;
+      }
+      .booked {
+        background-color: #ebebeb;
+      }
+      .undefind {
+        padding: 0;
+        background-color: #d0d6d8;
+      }
+    }
+    .day-section {
+      font-size: 17px;
+      text-align: center;
+      padding-right: 20px;
+      div{
+
+        &:first-child{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .hint {
+    // padding-left: 22%;
+    .img-box-green {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #eef7f6;
+      margin-right: 10px;
+      margin-bottom: 7px;
+
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 17px;
+    }
+    .img-box-red {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #ff0000bd;
+      margin-right: 10px;
+      margin-bottom: 7px;
+
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 17px;
+    }
+
+    .img-box-grey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      background: #ebebeb;
+      margin-right: 10px;
+      margin-bottom: 7px;
+      img {
+        width: 12px;
+      }
+    }
+    span {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 1015px) {
+  .availability {
+    .customTable {
+      td {
+        .btn {
+          width: 25px;
+          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none;
+        }
+      }
+    }
+  }
+}

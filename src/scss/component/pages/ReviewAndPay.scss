@@ -1,0 +1,126 @@
+.review-session-main-div {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    .row {
+        margin: 0;
+    }
+    .review-session-profile-col {
+        .review-sess-di-parent {
+            border: 1px solid #ccc;
+            padding: 0px 30px;
+            padding-bottom: 40px;
+            .review-sess-div {
+                display: flex;
+                flex-wrap: wrap;
+
+                .profile-info-col {
+                    margin-top: 50px;
+                    .session-txt {
+                        font-size: 21px;
+                        color: #454343;
+                        margin-bottom: 6px;
+                        &:last-child {
+                            margin-top: 30px;
+                        }
+                        &:first-child {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                .profile-col {
+                    margin-top: 40px;
+
+                    img {
+                        height: 210px;
+                        width: 210px;
+                        min-width: 176px;
+                    }
+                }
+            }
+            .txt-grey-style {
+                font-size: 28px;
+                color: #878382;
+                img {
+                    width: 23px;
+                    padding-bottom: 7px;
+                }
+            }
+            .text-bold {
+                color: #000;
+                font-weight: bold;
+                img {
+                    width: 23px;
+                    padding-bottom: 7px;
+                }
+            }
+            .session-txt {
+                font-size: 21px;
+                color: #454343;
+                margin-bottom: 6px;
+            }
+            .head-syle {
+                font-size: 25px;
+                color: #000;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .review-session-Form-Col {
+        .text-bold {
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .head-syle {
+            font-size: 25px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        .session-txt {
+            font-size: 21px;
+            color: #454343;
+            margin-bottom: 6px;
+        }
+        .session-txt-bold {
+            font-size: 21px;
+            color: #454343;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .confirm-pay-btn {
+            background-color: #2cb46b;
+            color: #fff;
+            border: none;
+            padding: 20px 50px;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 10px;
+            margin: 40px 0px ;
+            img {
+                width: 19px;
+                padding-bottom: 6px;
+                margin-right: 5px;
+            }
+        }
+        .react-datepicker-wrapper {
+            width: 100%;
+            .react-datepicker__input-container {
+                width: 100%;
+                input {
+                    border: 1px solid rgb(234, 234, 234);
+                    outline: none;
+                    box-shadow: none;
+                    height: 55px;
+                    border-radius: 10px;
+                    padding-left: 20px;
+                    font-size: 20px;
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+}

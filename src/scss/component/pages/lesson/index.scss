@@ -1,0 +1,156 @@
+.Lesson-Col {
+  padding: 0px 50px;
+  .header {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+  }
+  h2 {
+    color: #0f78a9;
+    font-weight: bold;
+  }
+  .session-div {
+    h5 {
+      font-weight: bold;
+      color: #000;
+    }
+    .btns-section {
+      flex-wrap: wrap;
+      padding-left: 8px;
+      .btn {
+        background: #efe8e800;
+        color: #056b9a;
+        border-color: #056b9a;
+        font-weight: bold;
+        margin: 10px 8px;
+        min-width: 130px;
+      }
+      .activebtn {
+        background-color: #056b9a;
+        color: #fff;
+      }
+    }
+    .dropdown-btn-Col {
+      .dropdown {
+        .btn {
+          width: 140px;
+          background-color: #056b9a;
+          color: #fff;
+          margin: 10px 8px;
+        }
+      }
+      .border {
+        border: 1px solid;
+        margin-left: 15px;
+        margin-right: 10px;
+      }
+    }
+    .Search-Col {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      .search-Col2 {
+        border-bottom: 1px solid #c3c3c3;
+        border-top: 1px solid #c3c3c3;
+        padding: 0px;
+        height: 100%;
+        .dropdown {
+          margin-right: 15px;
+          border-right: 1px solid;
+          .dropdown-toggle {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding-left: 0;
+            padding-right: 32px;
+
+            &::after {
+              display: none;
+            }
+            .img {
+              width: 15px;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+    .table-parent {
+      thead {
+        tr {
+          height: 65px;
+          .tabel-head {
+            white-space: nowrap;
+            color: #0f78a9;
+            font-size: 14px;
+            padding-bottom: 25px;
+          }
+        }
+      }
+      tbody {
+        background-color: #f9f9f9;
+        tr {
+          .tabel-data {
+            font-size: 13px;
+            padding-top: 22px;
+            padding-bottom: 35px;
+            .btn {
+              background-color: #056b9a;
+              color: #fff;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 0;
+              width: 90px;
+              font-size: 14px;
+            }
+          }
+          .green {
+            color: green;
+          }
+        }
+      }
+    }
+  }
+}
+.table-responsive{
+  overflow-y: auto;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.table-responsive::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+@media (max-width: 576px) {
+  .Lesson-Col {
+    padding: 0px 18px;
+  }
+}
+
+
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+}
+th, td {
+  padding: 0.25rem;
+}
+
+th {
+  position: sticky;
+  top: 0;
+}

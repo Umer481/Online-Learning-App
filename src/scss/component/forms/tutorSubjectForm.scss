@@ -1,0 +1,183 @@
+.tutoringInterest-Col {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  .modal-content {
+    background-color: #f7fbfc;
+    padding: 0;
+    .header {
+      padding: 10px 0px;
+      height: 120px;
+      padding-bottom: 0px;
+      .modal-title {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 70%;
+        .header_options {
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          flex-wrap: nowrap;
+          overflow-y: hidden;
+          .sub-txt {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            margin: 0;
+            font-weight: 500;
+            color: black;
+            height: 100%;
+            cursor: pointer;
+            text-align: center;
+            justify-content: center;
+          }
+          .sub-txt.active {
+            color: black;
+            font-weight: 600;
+            font-size: 22px;
+            border-bottom: 5px solid #2cb46d;
+            // width: 70px;
+            height: 100%;
+            justify-content: center;
+          }
+
+          &::-webkit-scrollbar {
+            width: 5px;
+            height: 0px;
+          }
+
+          /* Track */
+          &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+          }
+
+          /* Handle */
+          &::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 5px;
+          }
+
+          /* Handle on hover */
+          // &::-webkit-scrollbar-thumb:hover {
+          //   background: #b30000;
+          // }
+        }
+      }
+      .next-span {
+        width: 60px;
+        height: 60px;
+        background: #2cb46b;
+        color: #fff;
+        font-weight: 500;
+        font-size: 34px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+    .modal-body {
+      padding: 40px 0px;
+      overflow: auto;
+      max-height: 500px;
+      &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #2cb46b;
+        border-radius: 5px;
+      }
+      .modal_subject_Head {
+        margin-bottom: 25px;
+        .modal_subject_title {
+          color: #007ab5;
+          font-size: 24px;
+          font-weight: 500;
+          padding: 0px 50px;
+        }
+      }
+      .subjectVise {
+        padding: 35px 0px;
+      }
+      .subject_category_wrap {
+        .subject_category_item {
+          display: flex;
+          justify-content: flex-start;
+          width: 100%;
+          flex-wrap: wrap;
+          padding-left: 22px;
+
+          .custom-control {
+            position: relative;
+            display: block;
+            min-height: 1.5rem;
+            padding-left: 1.5rem;
+            font-size: 22px;
+            color: black;
+            font-weight: 600;
+            padding-left: 2.5rem;
+            line-height: 2;
+            margin: 0px 25px;
+            cursor: pointer;
+            // &:first-child{
+            // margin-left: 0px;
+
+            // }
+          }
+          .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+            background-color: #0079b4;
+            width: 2rem;
+            height: 2rem;
+            left: -2.5rem;
+            cursor: pointer;
+          }
+          .custom-control-label::after {
+            left: -2.5rem;
+
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+    .modal-footer {
+      padding: 30px 10px;
+      .green-link {
+        color: #2cb46c;
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tutoringInterest-Col {
+    .modal-content {
+      .header {
+        height: auto;
+        .modal-title {
+          .header_options {
+            justify-content: center;
+            .col-sm-12,
+            .col-12 {
+              justify-content: center;
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,351 @@
+.tutor-intro {
+  padding: 80px 0;
+  .left-section {
+    .title {
+      font-size: 1.625em;
+      font-family: CircularStd;
+      font-weight: 700;
+      color: #0f0f0f;
+    }
+    .text-wrapper {
+      width: 80%;
+    }
+  }
+  .right-section {
+    .title {
+      font-size: 1.625em;
+      font-family: CircularStd;
+      font-weight: 700;
+      color: #0f0f0f;
+    }
+    .text-wrapper {
+      width: 70%;
+    }
+  }
+}
+.card-holder {
+  padding: 30px 0 120px;
+  .title {
+    font-size: 2.5em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .tutor-card {
+    padding: 1.2em 1.6em 2.5em;
+    border: 1px solid #f2f2f2;
+    border-radius: 0.375em;
+    display: block;
+    transition: all 0.2s ease-in;
+    &:hover {
+      text-decoration: none;
+      border: 1px solid transparent;
+      box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.15);
+    }
+    .image {
+      display: block;
+      margin: auto;
+      height: 4.5em;
+      margin-bottom: 30px;
+    }
+    .title {
+      font-size: 1.2em;
+      color: #0f0f0f;
+      font-family: CircularStd;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .desc {
+      color: #1c1c1c;
+      font-size: 0.875em;
+    }
+  }
+}
+
+.testimonial-holder {
+  background: rgba(210, 235, 222, 0.54);
+  padding: 90px 0;
+  .testimonial-wrapper {
+    width: 80%;
+    margin: auto;
+    &:before {
+      width: 100%;
+      height: 96px;
+      display: block;
+      position: relative;
+      left: -50px;
+      top: -20px;
+      content: " ";
+      background-image: url(../../assets/images/quotation-mark.png);
+      background-repeat: no-repeat;
+    }
+  }
+  .testimonial-text {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+  }
+  .name {
+    font-size: 1.1em;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+  }
+  .btn-outline {
+    border: 2px solid #2cb46d;
+    padding: 12px 60px;
+    border-radius: 6px;
+  }
+}
+.text-link {
+  color: #2cb46d;
+}
+.features {
+  background: #fff;
+  padding: 80px 0;
+  .title {
+    font-size: 2.5em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .desc {
+    font-size: 1.1em;
+    color: #0f0f0f;
+  }
+  .ticklist {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      position: relative;
+      padding: 10px 0;
+      font-size: 1.1em;
+      color: #0f0f0f;
+      .tick {
+        width: 30px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+.faq {
+  padding: 80px 0;
+  .title {
+    font-size: 2.5em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .q-wrapper {
+    margin-bottom: 40px;
+  }
+  .question {
+    font-size: 2.2em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+  }
+  .desc {
+    font-size: 1.1em;
+  }
+}
+.accordion-wrapper {
+  padding: 80px 0;
+  .title {
+    font-size: 2.5em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .accordion-holder {
+    padding: 20px;
+    background: rgba(243, 243, 243, 0.6);
+    border: 1px solid #007ab5;
+    border-radius: 8px;
+    .accordion {
+      .card {
+        background: #fff;
+        border: 1px solid #007ab5;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        .card-header {
+          background: #fff;
+          padding: 20px;
+
+          display: block;
+          color: inherit;
+          text-decoration: none;
+          font-size: inherit;
+          position: relative;
+          -webkit-transition: color 0.5s ease;
+          -moz-transition: color 0.5s ease;
+          -ms-transition: color 0.5s ease;
+          -o-transition: color 0.5s ease;
+          transition: color 0.5s ease;
+          padding-right: 0.5rem;
+          cursor: pointer;
+          font-size: 1.1em;
+          font-weight: 500;
+          color: #2cb46d;
+          position: relative;
+          &:before {
+            font-family: "Material Design Icons";
+            position: absolute;
+            right: 7px;
+            top: 18px;
+            font-size: 18px;
+            display: block;
+          }
+
+          &[aria-expanded="false"]:before {
+            content: "\F374";
+          }
+
+          &[aria-expanded="true"]:before {
+            content: "\F415";
+          }
+        }
+      }
+    }
+  }
+}
+.img-card {
+  padding: 80px 0;
+  .title {
+    font-size: 2.5em;
+    color: #0f0f0f;
+    font-family: CircularStd;
+    font-weight: 700;
+
+    margin-bottom: 60px;
+  }
+  img {
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .card-title {
+    font-family: CircularStd;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #0f0f0f;
+  }
+  .desc {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  .link-text {
+    font-size: 0.875em;
+    color: #2cb46d;
+  }
+}
+.tutor-bottom {
+  padding: 80px 0;
+  .bg-tutor {
+    padding: 50px;
+    display: flex;
+
+    flex-direction: column;
+    h3 {
+      font-family: CircularStd;
+      font-weight: 700;
+      font-size: 2.5em;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+    .btn-outline {
+      font-family: CircularStd;
+      font-weight: 700;
+      background: transparent;
+      max-width: 11em;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 12px 40px;
+      font-size: 1.3em;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .bg-wrapper {
+    height: 65vh;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+}
+
+.bg-wrapper {
+  background-size: cover;
+
+  .banner-card {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .banner-card .banner-header .title {
+    font-size: 1.5em;
+    color: #1c1c1c;
+    text-align: center;
+  }
+  .banner-card-wrapper {
+    padding-bottom: 50px;
+  }
+  .card-body {
+    background: #e1f4ea;
+    width: 95%;
+
+    margin: auto;
+  }
+  label {
+    color: #1c1c1c;
+    font-size: 1em;
+  }
+  .price {
+    margin-bottom: 20px;
+    span {
+      color: #1c1c1c;
+    }
+    i {
+      font-size: 16px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+  .btn-block {
+    background: #2cb46d;
+    border: none;
+    color: #fff;
+    font-family: CircularStd;
+    font-weight: 500;
+    padding: 10px 45px;
+    border-radius: 5px;
+  }
+}
+
+.collapse .btn-holder .sign-up-tutor {
+  padding: 8px 35px;
+  border-radius: 6px;
+  background: #2cb46d;
+  color: #fff;
+  border: 2px solid transparent;
+  margin-left: 10px;
+  // -webkit-transition: all 0.2s ease-in;
+  // transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .bg-wrapper .banner-card-wrapper {
+    padding: 50px 0;
+  }
+}

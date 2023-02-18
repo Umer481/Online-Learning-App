@@ -1,0 +1,52 @@
+.session-request {
+  border: 1px solid #ced4da;
+  padding: 43px 25px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  min-height: 450px;
+
+  .time-style {
+    font-size: 13px;
+    color: black;
+  }
+  .btn-session {
+    .btn {
+      cursor: pointer;
+      margin: 0px 5px;
+      width: 90px;
+      height: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .rate-style {
+      background-color: #fff;
+      border: 1px solid #025277;
+      color: #000;
+    }
+    .accept {
+      background-color: #2cb46c;
+      color: #fff;
+      border: none;
+     
+    }
+    .decline {
+      background-color: #ff0000bd;
+      color: #fff;
+      border: none;
+    }
+  }
+  .session-info {
+    border: 1px solid #025277;
+    padding: 23px;
+    border-radius: 10px;
+    h5 {
+      color: black;
+    }
+    .subject {
+      color: #025277;
+    }
+  }
+}

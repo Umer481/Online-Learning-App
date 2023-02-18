@@ -1,0 +1,372 @@
+// .availability-Col {
+//   padding: 0px 50px;
+//     .header {
+//       height: 170px;
+//       display: flex;
+//       align-items: center;
+//       padding-top: 25px;
+//     }
+//     h2 {
+//       color: #0f78a9;
+//       font-weight: bold;
+//     }
+// }
+
+.availablity-header{
+  margin-top: 20px;
+  padding: 0 4.5%;
+}
+
+.Availability-modal{
+
+  
+    
+  &__body{
+      padding: 0rem;
+      background: #fff;
+      border: 2px solid #707070;
+      border-radius: 5px;
+      &__container{
+        
+        padding: 0 3.5%;
+         &__close{
+             position: absolute;
+             top: 130px;
+             right: 80px;
+             z-index: 1000;
+             background: #fff;
+              color: #000;
+              box-shadow: 0 3px 14px rgba(0, 0, 0, 0.16);
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+
+            @media only screen and (min-width: 112.5em) {
+              width: 70px;
+              height: 70px;
+              right: 120px;
+            }
+
+            @media only screen and (max-width:  75em) {
+              top: 85px;
+            }
+
+            @media only screen and (max-width: 37.5em) {
+              right: 50px;
+            }
+         }
+
+          &__data{
+              display: flex;
+              justify-content: space-between;
+              border: 1px solid #cccccc;
+              border-radius: 8px;
+              margin: 70px 0;
+
+              @media only screen and (max-width: 37.5em) {
+                margin: 20px 0;
+              }
+              @media only screen and (max-width: 75em){
+                  flex-direction: column;
+              }
+
+              &__calender{
+                  flex: 0 75%;
+                  padding: 20px;
+                  display: flex;
+                  justify-content: space-between;
+
+                  &__container{
+                      width: 100%;
+
+                      &__header{
+                          display: flex;
+                          justify-content: space-between;
+
+                          @media only screen and (max-width: 75em){
+                              flex-direction: column;
+                          }
+
+                          Button{
+
+                              @media only screen and (max-width: 75em){
+                                  margin-top: 20px;
+                              }
+
+                          }
+
+                          &__heading{
+                              font-weight: 700;
+                              // font-size: 26px;
+                              color: #0f0f0f;
+                              font-size: 26px;
+                              font-family: CircularStd;
+
+                              @media only screen and (max-width: 37.5em) {
+                                  font-size: 16px;
+                              }
+                          }
+
+                          &__image{
+                              width: 30px;
+                              height: 30px;
+                              margin-top: -10px;
+                              margin-right: 15px;
+                              @media only screen and (max-width: 37.5em) {
+                                  width: 20px;
+                                  height: 20px;
+                              }
+                          }
+                      }
+
+                      &__footer{
+
+                          &__paragraph{
+                              margin-top: 10px;
+                              font-size: 18px;
+                              font-weight: 500;
+                              font-family: inherit;
+                              color: #0f0f0f;
+
+                              @media only screen and (max-width: 37.5em) {
+                                  font-size: 12px;
+                              }
+                          }
+                      }
+
+                     
+                  }
+
+                  &__shift{
+                      width: 100%;
+                      
+                      @media only screen and (min-width: 112.5em) {
+                        margin-left: -40px !important;
+                        margin-top: 50px;
+                      }
+                      &__days{
+                          &__container{
+                              display: flex;
+                              margin-bottom: 10px;
+
+                              &__heading{
+                                  flex: 0 0 15%;
+
+                                  div{
+
+                                    @media only screen and (min-width: 112.5em) {
+                                      font-size: 22px;
+                                    }
+                                      @media only screen and (max-width:  75em) {
+                                          font-size: 14px;
+                                      }
+                                      @media only screen and (max-width:  56.25em) {
+                                          font-size: 10px;
+                                      }
+
+                                      @media only screen and (max-width:  37.5em) {
+                                          font-size: 7px;
+                                          letter-spacing: 1px;
+                                          margin-left: -10px;
+                                      }
+                                  }
+
+                                  
+                              }
+
+                              &__text{
+                                  display: flex;
+                                  flex: 0 0 85%;
+                                  justify-content: space-around;
+                                  font-size: 18px;
+                                  font-family: inherit;
+                                  font-weight: 600;
+                                  color: #0f0f0f;
+
+                                  div{
+
+                                    @media only screen and (min-width: 112.5em) {
+                                      font-size: 22px;
+                                    }
+                                    @media only screen and (max-width:  75em) {
+                                        font-size: 14px;
+                                    }
+
+                                    @media only screen and (max-width:  56.25em) {
+                                        font-size: 12px;
+                                    }
+
+                                      
+                                  }
+
+                                 
+
+                                  &__box{
+                                      width: 102px;
+                                      height: 90px;
+                                      background-color: rgba(211,211,211, 0.5);
+                                      position: relative;
+                                      cursor: pointer;
+
+                                    @media only screen and (min-width: 112.5em) {
+                                      width: 155px;
+                                      height: 150px;
+                                    }
+                                      @media only screen and (max-width:  56.25em) {
+                                          width: 57px;
+                                          height: 70px;
+                                      }
+
+                                      @media (max-width: 320px) {
+                                          width: 30px !important;
+                                          height: 30px !important;
+                                      }
+                                      @media (max-width:480px) {
+                                        width: 35px;
+                                        height: 30px;
+                                    }
+
+
+                                      &:focus{
+                                          border: 1px solid #0f0f0f;
+                                          background-color: blue;
+                                      }
+
+                                      &__close{
+                                          position: absolute;
+                                          width: 25px;
+                                          height: 25px;
+                                          top: 50%;
+                                          left: 50%;
+                                          transform: translate(-50%, -50%);
+
+                                          @media only screen and (min-width: 112.5em) {
+                                            width: 40px;
+                                            height: 40px;
+                                          }
+                                          @media only screen and (max-width:75em) {
+                                              width: 15px;
+                                              height: 15px;
+                                          }
+
+                                          @media only screen and (max-width:56.25em) {
+                                              width: 10px;
+                                              height: 10px;
+                                          }
+
+                                          @media only screen and (max-width:37.5em) {
+                                              width: 8px;
+                                              height: 8px;
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+
+                  
+              }
+
+              &__schedule{
+                  flex: 0 0 25%;
+                  border-left: 1px solid #cccccc;
+
+                  &__container{
+                      margin-top: 60px;
+                      padding: 25px;
+
+                      @media only screen and (max-width:75em) {
+                          margin-top: 10px;
+                          border-top: 1px solid #cccccc;
+                      }
+                      
+                      &__heading{
+                          font-family: CircularStd;
+                          font-size: 22px;
+                          color: #0f0f0f;
+
+                          @media only screen and (max-width: 37.5em) {
+                              font-size: 16px;
+                          }
+                      }
+
+                      &__week{
+                          font-family: inherit;
+                          font-weight: 400;
+                          margin-top: 10px;
+                          color: #0f0f0f;
+
+                          @media only screen and (max-width: 37.5em) {
+                              font-size: 12px;
+                          }
+                      }
+                  }
+
+                  &__available{
+                      border-bottom: 1px solid #cccccc;
+                      margin-top:20px;
+                      display: flex;
+                      justify-content: space-between;
+
+                      &__avail{
+                          font-size: 16px;
+                          font-weight: 100;
+                          font-family: inherit;
+                          font-weight: 600;
+
+                          @media only screen and (max-width: 37.5em) {
+                              font-size: 14px;
+                          }
+                      }
+                  }
+
+                  &__lesson{
+                    
+                    margin-top: 20px;
+
+                    &__drop{
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+
+                      &__text{
+                        color: #0f0f0f;
+                        margin-top: -15px;
+                        font-weight: 500;
+
+                      }
+
+                      &__paragraph{
+                        color: #0f0f0f;
+                        font-size: 14px;
+                      }
+                    }
+
+                    
+                  }
+
+                  &__buttons{
+                      display: flex;
+                      margin-top: 1px;
+                      border-top: 1px solid #cccccc;
+                      padding: 25px;
+                  }
+              }
+
+          }
+      }
+  }
+
+}
+
+.color__white{
+  background-color: #EEF7F6;
+}
+
+
+.custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #2CB46C !important;
+  padding: 5px !important;
+  border: #707070 !important;
+}

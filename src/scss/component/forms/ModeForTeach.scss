@@ -1,0 +1,141 @@
+.ModeForTeach-Col {
+  margin: 70px 0px;
+  .modal-content {
+    background-color: #f7fbfc;
+    padding: 0;
+    .header {
+      padding: 10px 0px;
+      height: 120px;
+      padding-bottom: 0px;
+      .modal-title {
+        .header_options {
+          color: #056b9a;
+          font-weight: 700;
+          font-size: 25px;
+        }
+      }
+    }
+    .ModeForTeach-body {
+      height: 100px;
+      margin: 31px 0px;
+      margin-bottom: 0px;
+
+      .custom-radio {
+        padding-left: 3rem;
+        cursor: pointer;
+
+        .custom-control-label {
+          &::before {
+            left: -3rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            background-color: #fff;
+            border: 2px solid #8e8e8f;
+            top: 0.4rem !important;
+            cursor: pointer;
+          }
+          &::after {
+            width: 1.5rem;
+            height: 1.5rem;
+            border: none;
+            left: -3rem;
+            background-image: none;
+            top: 0.4rem !important;
+          }
+        }
+        .custom-control-label {
+          font-size: 23px;
+          color: #056b9a;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+      .custom-radio
+        .custom-control-input:checked
+        ~ .custom-control-label::after {
+        background: #056b9a;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      .custom-checkbox {
+        .custom-control-label {
+          span {
+            padding-left: 20px;
+          }
+          &::before {
+            width: 1.5rem;
+            height: 1.5rem;
+            top: 0.2rem !important;
+          }
+          &::after {
+            width: 1.5rem;
+            height: 1.5rem;
+            top: 0.2rem !important;
+          }
+        }
+        .custom-control-input:checked ~ .custom-control-label::after {
+          background-color: #2cb46d;
+          cursor: pointer;
+        }
+      }
+    }
+    .ModeForTeach-body-down {
+      padding: 0px 70px;
+      
+      .dropdown {
+        padding: 36px 0px;
+        padding-bottom: 5px;
+        .dropdown-toggle {
+          height: 65px;
+          width: 100%;
+          background: none;
+          border-color: #cdcdca;
+          display: flex;
+          align-items: center;
+          background: white;
+
+          span {
+            width: 100%;
+            padding: 0px 15px;
+          }
+          & + .dropdown-menu {
+            width: 100%;
+          }
+        }
+      }
+      .Ques-txt {
+        color: #056b9a;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 30px;
+      }
+      .para-txt {
+        color: rgb(124, 124, 123);
+        font-size: 19px;
+        padding-top: 20px;
+      }
+      .form-control {
+        height: 60px;
+        margin: 20px 0px;
+        padding: 0px 40px;
+        font-size: 23px;
+      }
+      .alertRed{
+        .dropdown-toggle {
+          border-color: red;
+        }
+      }
+    }
+
+    .modal-footer {
+      padding: 30px 70px;
+      .green-link {
+        color: #2cb46c;
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+}

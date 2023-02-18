@@ -1,0 +1,193 @@
+.signUp-tutor-modal {
+  .modal-dialog {
+    .modal-content {
+      background: #f3fbf7;
+      border: 2px solid #707070;
+
+      .modal-body {
+        padding-top: 50px;
+        .close {
+          position: absolute;
+          z-index: 9999;
+          top: 40px;
+          right: 40px;
+          background: #fff;
+          color: #000;
+          box-shadow: 0 3px 14px rgba(0, 0, 0, 0.16);
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+        .content-holder {
+          padding: 1.8em 0;
+          .desc {
+            font-size: 15px;
+          }
+
+          .react-datepicker-wrapper {
+            width: 100%;
+            position: relative;
+            input {
+              width: 100%;
+              padding: 0.6em 1em;
+              border: 1px solid #e5e5e5;
+            }
+            & + img {
+              position: absolute;
+              right: 25px;
+              margin-top: 16px;
+              width: 15px;
+            }
+          }
+          .dobValidate-show {
+            .react-datepicker-wrapper {
+              width: 100%;
+              position: relative;
+              input {
+                width: 100%;
+                padding: 0.6em 1em;
+                border: 1px solid #ff5a57;
+              }
+              & + img {
+                position: absolute;
+                right: 25px;
+                margin-top: 16px;
+                width: 15px;
+              }
+            }
+            .dob-message {
+              margin-top: 2px;
+              font-size: 12px;
+              padding-left: 4px;
+              color: #ff5a57;
+            }
+          }
+          .react-datepicker__tab-loop {
+            & + img {
+              position: absolute;
+              right: 25px;
+              margin-top: 16px;
+              width: 15px;
+            }
+          }
+        }
+
+        .title {
+          font-size: 30px;
+          font-family: CircularStd;
+          color: #0f0f0f;
+          font-weight: 500;
+          margin-bottom: 30px;
+          text-align: center;
+          .link {
+            font-weight: 700;
+            color: #2cb46d;
+          }
+        }
+        .btn-lg-block {
+          display: block;
+          width: 100%;
+          padding: 0.4em 1em;
+          font-size: 0.875em;
+          text-align: center;
+          border: 1px solid transparent;
+          -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
+          border-radius: 0.25rem;
+        }
+        .button-white {
+          background: #fff;
+          color: #007ab5;
+          font-size: 1.15em;
+          border: 1px solid #8a8888;
+          font-family: CircularStd;
+          font-weight: 700;
+        }
+        .link-text {
+          color: #2cb46d;
+          padding-left: 2px;
+          font-size: 15px;
+        }
+        hr {
+          border-top: 1px solid #575757;
+        }
+        .custom-control-label {
+          font-size: 0.813em;
+          padding-top: 4px;
+        }
+        .facebook-btn {
+          background: #3b5998;
+          color: #fff;
+          font-size: 1.15em;
+          .social-logo {
+            width: 30px;
+            margin-right: 15px;
+            vertical-align: middle;
+          }
+          span {
+            font-weight: 700;
+          }
+        }
+        .google-btn {
+          background: #fff;
+          color: #1c1c1c;
+          font-size: 1.15em;
+          border: 1px solid #007ab5;
+          .social-logo {
+            width: 15px;
+            margin-right: 15px;
+            vertical-align: middle;
+          }
+          span {
+            font-weight: 700;
+          }
+        }
+        .react-inputs-validation__textbox__wrapper___3tnXv {
+          margin-bottom: 1rem !important;
+          .react-inputs-validation__textbox__input___20hDL {
+            padding: 0.9em 1em;
+            border-radius: 0.25rem;
+            height: auto;
+            font-size: 0.875em;
+            background: rbga(0, 22, 181, 0.12);
+          }
+        }
+        .form-control {
+          padding: 0.9em 1em;
+          border-radius: 0.25rem;
+          background: #fff;
+          border: 1px solid #2cb46d;
+          height: auto;
+          font-size: 0.875em;
+          -webkit-appearance: menulist;
+          background: rbga(0, 22, 181, 0.12);
+        }
+        select {
+          background: #fff !important;
+        }
+        label {
+          font-size: 1.15em;
+          color: #0f0f0f;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        .message {
+          font-size: 0.938em;
+        }
+        .login-btn {
+          background: #2cb46d;
+          color: #fff;
+          font-size: 1.15em;
+          font-family: CircularStd;
+          font-weight: 700;
+        }
+        .text-center,
+        .mb-4 {
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

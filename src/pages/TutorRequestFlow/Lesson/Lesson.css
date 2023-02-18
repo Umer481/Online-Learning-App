@@ -1,0 +1,141 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+.container-box {
+    width: 100%;
+    padding-right: 250px;
+    padding-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (max-width: 990px) {
+  .container-box {
+     padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .container-box {
+     padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .container-box {
+     padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+/* Page Header */
+.lesson-container .header {
+    font-weight:600;
+    color:#0d0e0f;
+    font-size:27px;
+
+}
+/* about user */
+.about-section {
+    border-radius: .25rem;
+    padding:44px 25px;
+    font-weight: 500;
+}
+.project-start {
+    margin-left:-80px
+}
+/* active header (about section header) */
+.about-section .active-header {
+    color:#3fca89;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: bolder;
+    padding:0px;
+}
+/* sub header (about section) */
+.about-section .data-sub-header {
+    color:black;
+    font-size:21px;
+    font-style: bold;
+    padding:0px;
+}
+.about-section p {
+    padding:0px;
+}
+.col-md-3 span{
+    color:rgba(0, 0, 0, 0.837);
+}
+/* sign box (letter 'M') */
+.sign-box {
+    background-color:#fff;
+    text-align: center;
+    border-radius: 7.25rem;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    font-size: 23px;
+    border:5px solid #dee2e6;
+    
+}
+/* detail container (information about project timmings etc) */
+.details {
+    padding:55px;
+}
+
+.details .col-md-3  {
+    text-align: center;
+    color:black;
+    font-weight: 600;
+  
+}
+.requirements h4{
+    color:black;
+}
+/* requirements */
+.requirements p {
+    font-size: 19px;
+    font-weight: 500;
+}
+/* decline btn in requirements section */
+.requirements .decline {
+    border:2px solid #3fca89;
+    border-radius:.25rem;
+}
+/* question area */
+.question-container {
+    padding:34px;
+}
+/* table styles */
+.table {
+    max-width:100%;
+    width: 100%;
+    background-color: transparent;
+   
+}
+/* table row styles */
+.table tr td {
+    padding: 2.75rem 0px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.801);
+    font-weight: 400;
+}
+.item {
+    text-align: end;
+}
+.frequent-questions {
+     border-bottom: 1px solid #dee2e6;
+    padding: 23px;
+ }
+.frequent-questions .h3,.frequent-questions .h5,.frequent-questions .questions,.frequent-questions .anchor {
+    padding:1rem;
+}
+.frequent-questions .h3 {
+    color:#3c4858;
+}
+.frequent-questions  .questions {
+    font-size:19px;
+}
+a.anchor {
+    color:#3fca89;
+}

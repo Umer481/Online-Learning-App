@@ -1,0 +1,106 @@
+.request-booking-col {
+    .contact-to-div {
+        padding-left: 10%;
+        .contact-to-tutor-para {
+            font-size: 20px;
+        }
+        .green-txt {
+            margin: 0% 5%;
+            margin-top: 20px;
+            &:first-child {
+                margin: 0%;
+                margin-top: 20px;
+            }
+            &:last-child {
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+        }
+    }
+}
+.booking-request-Form-Col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    .booking-request-Form {
+        box-shadow: 2px 8px 15px 4px #ddd;
+        padding: 30px;
+        padding-top: 60px;
+        .slect-header {
+            border-bottom: 1px solid #ccc;
+            font-size: 23px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            color: #000;
+        }
+        .section-header {
+            font-size: 23px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #000;
+        }
+        .count-stu {
+            font-size: 23px;
+            color: #858181;
+            margin-top: 10px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+        }
+        .continue-btn {
+            background-color: #2cb46b;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 20px;
+            width: 150px;
+        }
+        .form_textarea {
+            min-height: 100px;
+        }
+        .cancel-div {
+            color: #000;
+            font-size: 20px;
+            text-decoration: underline;
+            margin-bottom: 5px;
+            text-underline-position: under;
+            cursor: pointer;
+        }
+        .time-date-div {
+            margin-top: 30px;
+            .time-div {
+                margin-left: 40px;
+            }
+        }
+        .session-request-div {
+            margin-top: 40px;
+
+            .session-txt {
+                font-size: 21px;
+                color: "#454343";
+                &:last-child {
+                    margin-top: 30px;
+                }
+            }
+            .session-request-Col {
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                padding: 30px 0px;
+                margin-top: 25px;
+                .session-button {
+                    font-size: 25px;
+                    background: white;
+                    color: #2cb46b;
+                    border: 2px solid;
+                    padding: 8px 32px;
+                    border-radius: 8px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

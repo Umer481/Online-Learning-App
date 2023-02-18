@@ -1,0 +1,74 @@
+.tutor-setting-BioAndSub {
+  margin: 30px 0px;
+  padding: 0% 3%;
+
+  .btn-session {
+    padding: 0em;
+    .green-fill-btn {
+      color: #fff;
+      background-color: #2cb46c;
+      border: none;
+      font-size: 20px;
+      padding: 16px;
+      width: 190px;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-right: 20px;
+    }
+    .green-unfill-btn {
+      color: #2cb46c;
+      background-color: #fff;
+      border: 2px solid #2cb46c;
+      font-size: 20px;
+      padding: 16px;
+      width: 190px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+  }
+  .setting-bio-and-sub-col {
+    margin-top: 90px;
+    .setting-title-div {
+      font-size: 23px;
+      color: #000;
+      font-weight: 500;
+    }
+    .green-unfill-btn {
+      color: #2cb46c;
+      background-color: #fff;
+      border: 2px solid #2cb46c;
+      font-size: 20px;
+      padding: 10px;
+      width: 90px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+  }
+  .setting-panel-col {
+    padding: 43px 15px;
+
+    .value-div {
+      font-size: 23px;
+      color: #000;
+      font-weight: 500;
+    }
+    .name-div {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .para-title-bold {
+      font-size: 23px;
+      color: #000;
+      font-weight: 700;
+      margin-bottom: 50px;
+      font-family: "CircularStd";
+    }
+    .value-para {
+      font-size: 22px;
+      color: #474747;
+    }
+  }
+  .no-data {
+    margin-left: 20px;
+  }
+}
